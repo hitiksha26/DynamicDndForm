@@ -23,8 +23,8 @@ const DraggableInput = ({ id, children }) => {
         {...listeners}
         {...attributes}
         id={id}
-        className="draggable-item" // Added class for debugging
-        data-id={id} // Added data attribute for easy inspection in the DOM
+        className="draggable-item"
+        data-id={id}
       >
         {children}
       </div>

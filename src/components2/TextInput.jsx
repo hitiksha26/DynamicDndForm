@@ -2,7 +2,7 @@ const TextInput = () => {
   return (
     <div>
       <label>Text:</label>
-      <input type="text" />
+      <input type="text"/>
     </div>
   );
 };
